@@ -1,8 +1,0 @@
-[Unit]
-Description=VIN initializing setting
-
-[Service]
-ExecStart=/home/root/vin-init.sh
-
-[Install]
-WantedBy=multi-user.target
